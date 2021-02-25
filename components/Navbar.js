@@ -20,17 +20,17 @@ export default function Navbar() {
                         </Link>
                         </span>
                         <span>
-                        <Link href="/product">
+                        <Link href="/Products">
                             <a className="lg:inline-flex lg:w-auto w-auto px-6 py-2 text-xs uppercase font-bold text-gray-800 hover:text-gray-600">Products</a>
                             </Link>
                         </span>
                         <span>
-                        <Link href="/product">
+                        <Link href="/Services">
                         <a className="lg:inline-flex lg:w-auto w-auto px-6 py-2 text-xs uppercase font-bold text-gray-800 hover:text-gray-600">Services</a>
                         </Link>
                         </span>
                         <span>
-                        <Link href="/product">
+                        <Link href="/Outsourcing">
                         <a className="lg:inline-flex lg:w-auto w-auto px-6 py-2 text-xs uppercase font-bold text-gray-800 hover:text-gray-600">Outsourcing</a>
                         </Link>
                         </span>
@@ -40,8 +40,18 @@ export default function Navbar() {
                         </Link>
                         </span>
                         <span>
+                        <Link href="/Blog">
+                        <a className="lg:inline-flex lg:w-auto w-auto px-6 py-2 text-xs uppercase font-bold text-gray-800 hover:text-gray-600">Blog</a>
+                        </Link>
+                        </span>
+                        <span>
                         <Link href="/contact">
                         <a className="lg:inline-flex lg:w-auto w-auto px-6 py-2 text-xs uppercase font-bold text-gray-800 hover:text-gray-600">Contact</a>
+                        </Link>
+                        </span>
+                        <span>
+                        <Link href="/Example">
+                        <a className="lg:inline-flex lg:w-auto w-auto px-6 py-2 text-xs uppercase font-bold text-gray-800 hover:text-gray-600">Modal</a>
                         </Link>
                         </span>
                     </div>
